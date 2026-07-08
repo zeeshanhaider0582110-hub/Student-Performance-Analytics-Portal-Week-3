@@ -213,6 +213,6 @@ Click **View** on any student in the table to open their dynamic profile page. T
 |-------|---------|
 | **Name** | *Zeeshan Haider* |
 | **Institution** | *Abasyn University Islamabad Campus* |
-| **Internship** | Web Development Internship — Week 3 |
+| **Internship** | Web Development Internship — Week 3 @Codiora House (Private) Limited|
 | **Project** | EduTrack Student Performance Analytics Portal |
 | **Year** | 2026 |
