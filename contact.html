@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduTrack — Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-brand"><div class="brand-dot"></div>EduTrack</div>
+  <nav class="sidebar-nav">
+    <div class="nav-label">Menu</div>
+    <a class="nav-link" href="index.html"><span class="nav-link-icon">&#8962;</span> Home</a>
+    <a class="nav-link" href="dashboard.html"><span class="nav-link-icon">&#9636;</span> Dashboard</a>
+    <a class="nav-link" href="report.html"><span class="nav-link-icon">&#9632;</span> Report</a>
+    <a class="nav-link" href="students.html"><span class="nav-link-icon">&#9632;</span> Students</a>
+    <div class="nav-label">Info</div>
+    <a class="nav-link" href="about.html"><span class="nav-link-icon">&#9632;</span> About</a>
+    <a class="nav-link active" href="contact.html"><span class="nav-link-icon">&#9632;</span> Contact</a>
+  </nav>
+  <div class="sidebar-footer">
+    <div class="sidebar-user">
+      <div class="user-avatar">UT</div>
+      <div><div class="user-info-name">Usman Tariq</div><div class="user-info-role">Portal Coordinator</div></div>
+    </div>
+  </div>
+</aside>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="main-wrap">
+  <div class="topbar">
+    <button class="topbar-hamburger" id="hamburger">&#9776;</button>
+    <span class="topbar-title">Contact</span>
+    <button class="notif-btn" id="notifBtn">&#9679;<span class="notif-dot"></span></button>
+  </div>
+  <div class="page-wrap">
+    <div class="page-hdr"><h1>Contact Us</h1><p>We respond to all enquiries within one business day.</p></div>
+    <div class="contact-layout">
+      <div style="display:flex;flex-direction:column;gap:14px;">
+        <div class="card">
+          <div class="card-hdr"><div class="card-title">Get in Touch</div></div>
+          <div class="card-body">
+            <div class="contact-info-item"><div class="ci-icon">@</div><div class="ci-text"><h4>Email</h4><p>support@edutrack.edu.pk</p></div></div>
+            <div class="contact-info-item"><div class="ci-icon">#</div><div class="ci-text"><h4>Phone</h4><p>+92 (51) 012-3456<br>Mon–Fri, 9 AM – 5 PM PKT</p></div></div>
+            <div class="contact-info-item"><div class="ci-icon">*</div><div class="ci-text"><h4>Office</h4><p>Block 14, Gulshan-e-Iqbal<br>Karachi, Pakistan</p></div></div>
+            <div class="contact-info-item"><div class="ci-icon">~</div><div class="ci-text"><h4>Hours</h4><p>Mon–Fri: 9 AM – 5 PM<br>Saturday: 10 AM – 1 PM</p></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-hdr"><div class="card-title">Quick Links</div></div>
+          <div class="card-body">
+            <div style="display:flex;flex-direction:column;gap:8px;">
+              <a href="#" style="font-size:13px;color:var(--blue);font-weight:500;">Documentation &amp; User Guide</a>
+              <a href="#" style="font-size:13px;color:var(--blue);font-weight:500;">Frequently Asked Questions</a>
+              <a href="#" style="font-size:13px;color:var(--blue);font-weight:500;">Report a Bug</a>
+              <a href="#" style="font-size:13px;color:var(--blue);font-weight:500;">Submit a Feature Request</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-hdr"><div class="card-title">Send a Message</div></div>
+        <div class="card-body">
+          <form id="cForm" novalidate>
+            <div class="form-grid">
+              <div class="form-group"><label class="form-label" for="cName">Full Name *</label><input class="form-control" id="cName" type="text" placeholder="Your name" /><span class="form-err" id="cNameErr">Name is required.</span></div>
+              <div class="form-group"><label class="form-label" for="cEmail">Email *</label><input class="form-control" id="cEmail" type="email" placeholder="you@school.edu.pk" /><span class="form-err" id="cEmailErr">Email is required.</span></div>
+              <div class="form-group full"><label class="form-label" for="cSubject">Subject *</label><select class="form-control" id="cSubject"><option value="">— Select a topic —</option><option>General Enquiry</option><option>Technical Support</option><option>Account &amp; Access</option><option>Student Data Query</option><option>Report an Issue</option><option>Feature Request</option></select><span class="form-err" id="cSubjectErr">Please select a subject.</span></div>
+              <div class="form-group full"><label class="form-label" for="cMsg">Message *</label><textarea class="form-control" id="cMsg" placeholder="Describe your query…" style="min-height:110px;"></textarea><span class="form-err" id="cMsgErr">Message is required.</span></div>
+              <div class="form-group full" style="flex-direction:row;align-items:center;gap:8px;"><input type="checkbox" id="consent" style="width:15px;height:15px;flex-shrink:0;" /><label for="consent" style="font-size:12px;color:var(--text-2);">I agree to my information being stored for support purposes.</label></div>
+              <div class="form-actions">
+                <button type="button" class="btn btn-secondary" onclick="document.getElementById('cForm').reset()">Clear</button>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer><div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand"><h3>EduTrack Analytics Portal</h3><p>A professional platform for tracking student performance.</p></div>
+      <div class="footer-col"><h4>Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="dashboard.html">Dashboard</a></li><li><a href="report.html">Report</a></li><li><a href="students.html">Students</a></li></ul></div>
+      <div class="footer-col"><h4>Support</h4><ul><li><a href="#">Help Center</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Legal</h4><ul><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Use</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 EduTrack Analytics Portal</span><span>Version 1.0.0</span></div>
+  </div></footer>
+</div>
+<div id="toast-wrap"></div>
+<script src="js/nav.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
